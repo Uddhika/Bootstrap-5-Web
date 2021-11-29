@@ -1,0 +1,50 @@
+
+$body-bg:rgb(27,27,27);
+$primary:rgb(0,119,255);
+$body-color:white;
+$font-family-sans-serif:'Poppins',sans-serif;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}
+
+.custombg{
+    background: black url('../assets/1.jpg');
+    background-size: cover;
+}
+
+// .card-text,.card-title{
+//     color:rgb(27,27,27);
+// }
+.btn-primary{
+    color: white;
+}
+
+.card-body{
+    background-color: $gray-900;
+}
+
+.card{
+    border: none;
+}
+
+.card-body p{
+    color: rgb(184, 184, 185);
+}
+
+.sub-text{
+    font-weight: 300;
+    
+}
